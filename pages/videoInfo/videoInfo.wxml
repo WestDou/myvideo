@@ -1,0 +1,40 @@
+<view style='width:100%;height:100%;'>
+<video src="{{serverUrl}}{{videoPath}}" class='video'
+controls='{{false}}'
+autoplay='{{true}}'
+muted='{{true}}'
+loop='{{true}}'
+objectFit='{{cover}}'
+>
+
+
+<cover-view>
+<cover-image src='../resource/camera.png' class='camera' ></cover-image>
+<cover-image src='../resource/search.png' class='search' bindtap='search'></cover-image>
+</cover-view >
+
+<cover-view class='mid'>
+<cover-image src='{{serverUrl}}/5/7ca250c9-90ac-4d90-8c4f-c22af1ef646a.png' class='faceImage' ></cover-image>
+<cover-image src='../resource/like.png' class='like' ></cover-image>
+<cover-image src='../resource/comment.png' class='comment' ></cover-image>
+<cover-image src='../resource/forward.png' class='forward' ></cover-image>
+
+
+</cover-view>
+<!--昵称描述音乐-->
+<cover-view>
+<cover-view class='nickName'>@123</cover-view>
+<cover-view class='desc'>@123</cover-view>
+<cover-view class='bgm'>
+<cover-image src='../resource/music.png' class='musicImg'></cover-image>
+<cover-view class='musicName'>西城创作的原声</cover-view>
+</cover-view>
+</cover-view>
+<!--底部导航条-->
+<cover-view class='nav'>
+<cover-image src='../resource/index.png' class='index' ></cover-image>
+<cover-image src='../resource/Ilike.png' class='Ilike' ></cover-image>
+<cover-image src='../resource/I.png' class='i' ></cover-image>
+</cover-view>
+</video>
+</view>

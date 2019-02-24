@@ -1,0 +1,21 @@
+<view>
+
+<view class='head'>
+<image src="{{faceImgPath}}" class='face' bindtap='changeFace'></image>
+<!-- <view>
+<button type='primary' class='followMe'>关注我</button>
+</view> -->
+<view>
+<button class='upload' bindtap='uploadpro'>上传作品</button>
+<button class='logout'bindtap="logout">注销</button>
+</view>
+<view class='count'>
+<view class='fansCount'>{{fansCount}}粉丝</view>
+<view class='followCount'>{{followCount}}关注</view>
+<view class='likeCount'>{{likeCount}}获赞</view>
+</view>
+</view>
+
+<view class='line'></view>
+<view class='body'></view>
+</view>

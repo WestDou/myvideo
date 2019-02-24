@@ -1,0 +1,98 @@
+page{
+  height: 100%;
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
+.camera{
+  float: left;
+  width: 70rpx;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+}
+.search{
+  float: right;
+  width: 70rpx;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-right: 35rpx;
+}
+.faceImage{
+  float: right;
+  width: 95rpx;
+  height: 95rpx;
+  margin-top: 420rpx;
+  margin-right: 20rpx;
+  border-radius: 100rpx;
+}
+
+.like{
+  float: right;
+  width: 70rpx;
+  height: 60rpx;
+  margin-top: 55rpx;
+  margin-right: 35rpx;
+  clear: both;
+}
+.comment{
+  float: right;
+  width: 70rpx;
+  height: 60rpx;
+  margin-top: 55rpx;
+  margin-right: 35rpx;
+  clear: both;
+}
+.forward{
+  float: right;
+  width: 70rpx;
+  height: 60rpx;
+  margin-top: 55rpx;
+  margin-right: 35rpx;
+  clear: both;
+}
+.nickName{
+  color: white;
+  margin-left: 20rpx;
+}
+.desc{
+  color: white;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.bgm{
+  margin: 20rpx;
+}
+.musicImg{
+  width: 35rpx;
+  height: 35rpx;
+  /* margin-top: 10rpx; */
+  margin-right: 20rpx;
+  float: left;
+}
+.musicName{
+  color: white;
+}
+.nav{
+  text-align: center;
+}
+.index{
+  
+  width: 70rpx;
+  height: 60rpx;
+  display: inline-block;
+
+}
+.Ilike{
+  display: inline-block;
+  width: 70rpx;
+  height: 60rpx;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.i{
+  display: inline-block;
+  width: 70rpx;
+  height: 60rpx;
+}

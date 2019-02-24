@@ -1,0 +1,42 @@
+
+
+.container{
+display: flex;
+text-align: center;
+width: 100%;
+justify-content: space-around;
+}
+.audio{
+  
+}
+.radio{
+  display: flex;
+  margin-left: 15rpx;
+}
+.inputView{
+  margin: 30rpx;
+}
+.desLabel{
+  
+  margin-left: 30rpx;
+  float: left;
+  color: #999;
+}
+.desc{
+  margin-top: 30rpx;
+  text-align: left;
+  font-size: 35rpx;
+  
+}
+.uploadBtn{
+   width: 80%;
+  height: 90rpx;
+  font-size: 38rpx;
+  margin-top:40rpx; 
+}
+.resetBtn{
+   width: 80%;
+  height: 90rpx;
+  font-size: 38rpx;
+  margin-top:40rpx; 
+}

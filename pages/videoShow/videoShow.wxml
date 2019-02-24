@@ -1,0 +1,14 @@
+<view wx:for="{{videoList}}" wx:for-item="item" wx:key="id">
+  <view class='video'>
+<image src="{{serverUrl}}{{item.coverPath}}" mode="aspectFit" class="videoCover"></image>
+<image src="{{serverUrl}}{{item.faceImage}}" class=' face '></image>
+<view class="nickname">西城</view>
+</view>
+</view>
+
+
+
+
+
+
+

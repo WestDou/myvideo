@@ -1,0 +1,26 @@
+.videoCover{
+ width: 100%;
+  height: 400rpx;
+}
+.video{
+  width: 100%;
+  height: 400rpx;
+  background: black;
+  margin-bottom: 90rpx;
+}
+.face{
+  margin-left: 30rpx;
+  margin-top: -40rpx;
+   width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+}
+
+.nickname{
+  margin-top: -70rpx;
+  margin-left: 150rpx;
+  font-size: 30rpx;
+  color: black;
+  
+  
+}

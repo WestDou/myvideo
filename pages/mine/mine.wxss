@@ -1,0 +1,58 @@
+.head {
+  width: 100%;
+  background-color: rgba(102, 102, 102, 0.089);
+  text-align: center;
+}
+
+.face {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx;
+}
+
+.followMe {
+  width: 23%;
+  height: 60rpx;
+  font-size: 35rpx;
+  line-height: 55rpx;
+}
+
+.fansCount {
+  display: inline;
+  margin: 40rpx;
+}
+
+.followCount {
+  display: inline;
+  margin: 40rpx;
+}
+
+.likeCount {
+  display: inline;
+  margin: 40rpx;
+}
+
+.count {
+  margin-top: 30rpx;
+}
+
+.line {
+  height: 30rpx;
+  background: rgba(102, 102, 102, 0.089);
+  border-bottom: solid rgba(153, 153, 153, 0.616) 3rpx;
+}
+
+.upload {
+  height: 55rpx;
+  width: 30%;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.logout {
+  height: 55rpx;
+  width: 30%;
+  font-size: 30rpx;
+  line-height: 60rpx;
+}

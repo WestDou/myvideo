@@ -1,0 +1,54 @@
+.login-icon{
+  background-color: white;
+}
+.login-img{
+  width: 100%;
+}
+.inputView {
+height:90rpx;
+width: 100%;
+background-color: white;
+}
+.nameImage{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  float: left;
+  
+}
+.loginLabel{
+  margin-left: 10rpx;
+  font-size: 35rpx;
+  color: #666;
+  float: left;
+  margin-top: 25rpx;
+}
+.inputText{
+  width: 65%;
+  font-size: 30rpx;
+  display: block;
+  text-align: right;
+  /* border: solid green 1px; */
+  margin-left: 70rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.line{
+  border: solid rgba(102, 102, 102, 0.548) 1rpx;
+}
+.registBtn{
+  width: 80%;
+  height: 90rpx;
+  font-size: 38rpx;
+  margin-top:40rpx; 
+}
+.goLoginBtn{
+   width: 80%;
+  height: 90rpx;
+  font-size: 40rpx;
+  margin-top:30rpx; 
+}
+page{
+  background-color: rgba(102, 102, 102, 0.055);
+}
